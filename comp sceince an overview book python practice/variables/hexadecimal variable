@@ -1,0 +1,3 @@
+my_integer = 0xFF
+print (my_integer)
+#python expresses hexadecimal values using a 0x prefix

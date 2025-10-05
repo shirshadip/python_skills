@@ -1,0 +1,10 @@
+print (5+)#syntax error: invalid syntax
+# print (5+5) # this prints 10
+
+
+print (5.e)#syntax error: invalid token
+# print (5.0e) # this prints 5.0e+00, which is scientific notation for 5.0
+
+
+pront (5) # syntax error: name 'pront' is not defined
+# print (5) # this prints 5

@@ -1,0 +1,35 @@
+# Logic and Shift Operations in Python
+# THE 0X PREFIX INDICATES A HEXADECIMAL NUMBER
+# THE 0B PREFIX INDICATES A BINARY NUMBER
+
+x = 0b00110011
+mask =0b00001111
+# AND operation
+print (0b00000101 & 0b00000100) # prints 5 AND 4,which is 4
+# OR operation
+print (0b00000101 | 0b00000100) # prints 5 OR 4, which is 5
+# XOR operation
+print (0b00000101 ^ 0b00000100) # prints 5 XOR 4, which is 1
+
+#as a result we can replicate each of the example problems of #the previous code snippets using bitwise operations
+
+print (0b10011010 & 0b11001001)  #      10011010
+                                 #  AND 11001001
+                                 #      10001000
+
+print (0b10011010 | 0b11001001)  #      10011010
+                                 #  OR  11001001
+                                 #      11011011
+
+print (0b10011010 ^ 0b11001001)  #      10011010
+                                 #  XOR 11001001
+                                 #      01010011
+
+print(bin(0b10011010 & 0b11001001))  # prints 0b10001000
+print(bin(0b10011010 | 0b11001001))  # prints 0b11011011
+print(bin(0b10011010 ^ 0b11001001))  # prints 0b01010011
+
+
+# Shift operations
+print (0b00000101 << 2) # prints 20, which is 5 shifted left by 2 bits ,which is 10100 in binary
+print (0b00000101 >> 2) # prints 1, which is 5 shifted right by 2 bits, which is 00001 in binary

@@ -1,0 +1,10 @@
+def water_temp_check():
+    water_temp = int(input("Enter the water temperature: "))
+    if water_temp > 140:
+        print("Water is too hot to drink")
+
+    else:
+        print("Water is safe to drink")
+
+# Call the function
+water_temp_check()

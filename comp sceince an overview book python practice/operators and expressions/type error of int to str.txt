@@ -1,0 +1,1 @@
+print ("usd$" + 1000) # Type error : can't convert int to str

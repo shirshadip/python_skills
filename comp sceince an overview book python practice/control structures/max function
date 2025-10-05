@@ -1,0 +1,6 @@
+x = 1045
+y = 4567
+z = 4628
+
+biggest = max(x , y , z)
+print (biggest)

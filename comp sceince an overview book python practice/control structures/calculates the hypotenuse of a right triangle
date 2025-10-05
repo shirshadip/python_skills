@@ -1,0 +1,8 @@
+import math 
+
+sideA = float(input("Enter the length of side A: "))
+sideB = float(input("Enter the length of side B: "))
+#calculate the hypotenuse using Pythagorean theorem
+hypotenuse = math.sqrt(sideA**2 + sideB**2)
+
+print (hypotenuse)

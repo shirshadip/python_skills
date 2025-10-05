@@ -1,0 +1,13 @@
+"""
+voide function or procedure is a function that does not return any value.
+It is used to perform an action or a series of actions without producing a result that can be
+
+"""
+
+def void_function(x):
+    x = print ("This is a void function")
+
+    print (x)
+    # The function does not return any value, it just prints a message.
+
+void_function(0)

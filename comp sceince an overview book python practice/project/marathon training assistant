@@ -1,0 +1,24 @@
+#marathon training assistant 
+
+import math
+#this function calculates the total seconds from minutes and seconds
+#it takes two arguments: min and sec
+def total_seconds (min, sec):
+    return min * 60 + sec
+#this function calculates the pace in minutes per mile
+#it takes two arguments: total_seconds and distance in miles
+def speed (time):
+    return 3600 / time
+#prompt user  for pace and mileage :
+pace_minutes = int(input("Enter your pace in minutes: "))
+pace_seconds = int(input("Enter your pace in seconds: "))
+miles= float(input("Enter the distance in miles: "))
+#calculate total seconds from pace
+mph = speed(total_seconds(pace_minutes, pace_seconds))
+print ("Your speed is: " + str(mph) + " miles per hour")
+#calculate total time in seconds
+total = miles*total_seconds(pace_minutes, pace_seconds)
+elapsed_minutes = total // 60
+elapsed_seconds = total % 60
+
+print("Your total time is: " + str(int(elapsed_minutes)) + " minutes and " + str(int(elapsed_seconds)) + " seconds")

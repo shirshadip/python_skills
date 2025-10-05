@@ -1,0 +1,1 @@
+print ("usd$" + str(1000)) # this prints usd$1000
