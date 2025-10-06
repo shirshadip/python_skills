@@ -1,0 +1,20 @@
+NumPy (Numerical Python) is a Python library used for:
+
+Handling large, multi-dimensional arrays and matrices.
+
+Performing mathematical operations efficiently.
+
+Being the foundation for data science, AI, and scientific computing (used in Pandas, TensorFlow, etc.).
+
+
+If not installed yet, run this in your terminal or command prompt:
+
+pip install numpy
+
+
+Then, import it in Python:
+
+import numpy as np
+
+
+The alias np is a convention (used everywhere).
