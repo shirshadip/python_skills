@@ -1,0 +1,6 @@
+create a user defined integer list
+find the elment from the list and if the element is found then print the position 
+also show the next and previous elemnt 
+if element found at position no.1 then print "it is the first number "
+if position found at the last the print "it is the last number "
+also print the duplicate numbers 
