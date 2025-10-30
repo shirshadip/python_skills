@@ -6,4 +6,5 @@ def shuf (name ):
         s_name = r.choice(l_name)
         ret+= s_name + " "
     return ret
-print(shuf ("ram kumar das"))
+n= input("enter a name:")
+print(shuf (n))
