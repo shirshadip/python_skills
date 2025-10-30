@@ -23,7 +23,7 @@ username.send_keys("@ig_shirshadip")
 
 #enter password
 password = driver.find_element(By.NAME,"password")
-password.send_keys("sonu bulu")
+password.send_keys("***********")
 
 password.send_keys(Keys.RETURN) #press enter
 
